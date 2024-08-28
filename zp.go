@@ -5,12 +5,13 @@
 package dm
 
 import (
-	"dm/util"
 	"fmt"
 	"os"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/aveyuan/dm/util"
 )
 
 const (

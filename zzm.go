@@ -7,13 +7,14 @@ package dm
 
 import (
 	"bufio"
-	"dm/util"
 	"io"
 	"os"
 	"runtime"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/aveyuan/dm/util"
 )
 
 var LogDirDef, _ = os.Getwd()

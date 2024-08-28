@@ -5,12 +5,13 @@
 package dm
 
 import (
-	"dm/util"
 	"fmt"
 	"math"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/aveyuan/dm/util"
 )
 
 const (
@@ -132,7 +133,7 @@ const (
 
 	Dm_build_1025 int32 = 0xFFFE - 3
 
-	Dm_build_1026 int32 = 0XFFFE - 4
+	Dm_build_1026 int32 = 0xFFFE - 4
 
 	Dm_build_1027 int32 = 0xFFFE
 

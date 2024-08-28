@@ -9,12 +9,13 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/parser"
-	"dm/util"
 	"fmt"
-	"golang.org/x/text/encoding"
 	"sync"
 	"sync/atomic"
+
+	"github.com/aveyuan/dm/parser"
+	"github.com/aveyuan/dm/util"
+	"golang.org/x/text/encoding"
 )
 
 type DmConnection struct {
